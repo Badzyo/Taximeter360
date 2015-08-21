@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		802C03981B66B6290090AAEF /* AnaliticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802C03971B66B6290090AAEF /* AnaliticsViewController.swift */; };
+		802C039A1B66CA720090AAEF /* Tariff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802C03991B66CA720090AAEF /* Tariff.swift */; };
+		803188EB1B6541F400CE22A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803188EA1B6541F400CE22A5 /* AppDelegate.swift */; };
+		803188F21B6541F400CE22A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 803188F01B6541F400CE22A5 /* Main.storyboard */; };
+		803188F41B6541F400CE22A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 803188F31B6541F400CE22A5 /* Images.xcassets */; };
+		803188F71B6541F400CE22A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803188F51B6541F400CE22A5 /* LaunchScreen.xib */; };
+		803189031B6541F400CE22A5 /* Taximeter360Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803189021B6541F400CE22A5 /* Taximeter360Tests.swift */; };
+		80FA45351B6CB13700F2F455 /* PreferencesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FA45341B6CB13700F2F455 /* PreferencesTableViewCell.swift */; };
+		80FA45371B6CB18800F2F455 /* PreferencesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FA45361B6CB18800F2F455 /* PreferencesTableViewController.swift */; };
+		80FA453D1B6D484600F2F455 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FA453C1B6D484600F2F455 /* MainViewController.swift */; };
+		80FA456D1B6DF50900F2F455 /* Passage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FA456C1B6DF50900F2F455 /* Passage.swift */; };
+		80FA456F1B6DF8E100F2F455 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FA456E1B6DF8E100F2F455 /* Route.swift */; };
+		80FA45711B6DFC1800F2F455 /* PassageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FA45701B6DFC1800F2F455 /* PassageManager.swift */; };
+		80FA45731B6E1BE100F2F455 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FA45721B6E1BE100F2F455 /* ErrorManager.swift */; };
+		80FA45751B6E68A200F2F455 /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FA45741B6E68A200F2F455 /* NumberFormatter.swift */; };
+		80FA45771B6E8C4000F2F455 /* taxi-640.gif in Resources */ = {isa = PBXBuildFile; fileRef = 80FA45761B6E8C4000F2F455 /* taxi-640.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		803188FD1B6541F400CE22A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 803188DD1B6541F300CE22A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 803188E41B6541F300CE22A5;
+			remoteInfo = Taximeter360;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		802C03971B66B6290090AAEF /* AnaliticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnaliticsViewController.swift; sourceTree = "<group>"; };
+		802C03991B66CA720090AAEF /* Tariff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tariff.swift; sourceTree = "<group>"; };
+		803188E51B6541F300CE22A5 /* Taximeter360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taximeter360.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		803188E91B6541F400CE22A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		803188EA1B6541F400CE22A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		803188F11B6541F400CE22A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		803188F31B6541F400CE22A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		803188F61B6541F400CE22A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		803188FC1B6541F400CE22A5 /* Taximeter360Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Taximeter360Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		803189011B6541F400CE22A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		803189021B6541F400CE22A5 /* Taximeter360Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taximeter360Tests.swift; sourceTree = "<group>"; };
+		80FA45341B6CB13700F2F455 /* PreferencesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesTableViewCell.swift; sourceTree = "<group>"; };
+		80FA45361B6CB18800F2F455 /* PreferencesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesTableViewController.swift; sourceTree = "<group>"; };
+		80FA453C1B6D484600F2F455 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		80FA456C1B6DF50900F2F455 /* Passage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Passage.swift; sourceTree = "<group>"; };
+		80FA456E1B6DF8E100F2F455 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		80FA45701B6DFC1800F2F455 /* PassageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassageManager.swift; sourceTree = "<group>"; };
+		80FA45721B6E1BE100F2F455 /* ErrorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		80FA45741B6E68A200F2F455 /* NumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberFormatter.swift; sourceTree = "<group>"; };
+		80FA45761B6E8C4000F2F455 /* taxi-640.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "taxi-640.gif"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		803188E21B6541F300CE22A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		803188F91B6541F400CE22A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		803188DC1B6541F300CE22A5 = {
+			isa = PBXGroup;
+			children = (
+				803188E71B6541F300CE22A5 /* Taximeter360 */,
+				803188FF1B6541F400CE22A5 /* Taximeter360Tests */,
+				803188E61B6541F300CE22A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		803188E61B6541F300CE22A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				803188E51B6541F300CE22A5 /* Taximeter360.app */,
+				803188FC1B6541F400CE22A5 /* Taximeter360Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		803188E71B6541F300CE22A5 /* Taximeter360 */ = {
+			isa = PBXGroup;
+			children = (
+				8031890C1B65454F00CE22A5 /* images */,
+				803188EA1B6541F400CE22A5 /* AppDelegate.swift */,
+				803188F01B6541F400CE22A5 /* Main.storyboard */,
+				80FA453C1B6D484600F2F455 /* MainViewController.swift */,
+				80FA45701B6DFC1800F2F455 /* PassageManager.swift */,
+				80FA456C1B6DF50900F2F455 /* Passage.swift */,
+				802C03991B66CA720090AAEF /* Tariff.swift */,
+				80FA45361B6CB18800F2F455 /* PreferencesTableViewController.swift */,
+				80FA45341B6CB13700F2F455 /* PreferencesTableViewCell.swift */,
+				80FA456E1B6DF8E100F2F455 /* Route.swift */,
+				80FA45741B6E68A200F2F455 /* NumberFormatter.swift */,
+				802C03971B66B6290090AAEF /* AnaliticsViewController.swift */,
+				80FA45721B6E1BE100F2F455 /* ErrorManager.swift */,
+				803188F31B6541F400CE22A5 /* Images.xcassets */,
+				803188F51B6541F400CE22A5 /* LaunchScreen.xib */,
+				803188E81B6541F400CE22A5 /* Supporting Files */,
+			);
+			path = Taximeter360;
+			sourceTree = "<group>";
+		};
+		803188E81B6541F400CE22A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				803188E91B6541F400CE22A5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		803188FF1B6541F400CE22A5 /* Taximeter360Tests */ = {
+			isa = PBXGroup;
+			children = (
+				803189021B6541F400CE22A5 /* Taximeter360Tests.swift */,
+				803189001B6541F400CE22A5 /* Supporting Files */,
+			);
+			path = Taximeter360Tests;
+			sourceTree = "<group>";
+		};
+		803189001B6541F400CE22A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				803189011B6541F400CE22A5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8031890C1B65454F00CE22A5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				80FA45761B6E8C4000F2F455 /* taxi-640.gif */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		803188E41B6541F300CE22A5 /* Taximeter360 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 803189061B6541F400CE22A5 /* Build configuration list for PBXNativeTarget "Taximeter360" */;
+			buildPhases = (
+				803188E11B6541F300CE22A5 /* Sources */,
+				803188E21B6541F300CE22A5 /* Frameworks */,
+				803188E31B6541F300CE22A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taximeter360;
+			productName = Taximeter360;
+			productReference = 803188E51B6541F300CE22A5 /* Taximeter360.app */;
+			productType = "com.apple.product-type.application";
+		};
+		803188FB1B6541F400CE22A5 /* Taximeter360Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 803189091B6541F400CE22A5 /* Build configuration list for PBXNativeTarget "Taximeter360Tests" */;
+			buildPhases = (
+				803188F81B6541F400CE22A5 /* Sources */,
+				803188F91B6541F400CE22A5 /* Frameworks */,
+				803188FA1B6541F400CE22A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				803188FE1B6541F400CE22A5 /* PBXTargetDependency */,
+			);
+			name = Taximeter360Tests;
+			productName = Taximeter360Tests;
+			productReference = 803188FC1B6541F400CE22A5 /* Taximeter360Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		803188DD1B6541F300CE22A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Denys Badzo";
+				TargetAttributes = {
+					803188E41B6541F300CE22A5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					803188FB1B6541F400CE22A5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 803188E41B6541F300CE22A5;
+					};
+				};
+			};
+			buildConfigurationList = 803188E01B6541F300CE22A5 /* Build configuration list for PBXProject "Taximeter360" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 803188DC1B6541F300CE22A5;
+			productRefGroup = 803188E61B6541F300CE22A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				803188E41B6541F300CE22A5 /* Taximeter360 */,
+				803188FB1B6541F400CE22A5 /* Taximeter360Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		803188E31B6541F300CE22A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803188F21B6541F400CE22A5 /* Main.storyboard in Resources */,
+				80FA45771B6E8C4000F2F455 /* taxi-640.gif in Resources */,
+				803188F71B6541F400CE22A5 /* LaunchScreen.xib in Resources */,
+				803188F41B6541F400CE22A5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		803188FA1B6541F400CE22A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		803188E11B6541F300CE22A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FA45751B6E68A200F2F455 /* NumberFormatter.swift in Sources */,
+				80FA453D1B6D484600F2F455 /* MainViewController.swift in Sources */,
+				802C03981B66B6290090AAEF /* AnaliticsViewController.swift in Sources */,
+				803188EB1B6541F400CE22A5 /* AppDelegate.swift in Sources */,
+				80FA45351B6CB13700F2F455 /* PreferencesTableViewCell.swift in Sources */,
+				80FA45731B6E1BE100F2F455 /* ErrorManager.swift in Sources */,
+				80FA45371B6CB18800F2F455 /* PreferencesTableViewController.swift in Sources */,
+				80FA456F1B6DF8E100F2F455 /* Route.swift in Sources */,
+				80FA456D1B6DF50900F2F455 /* Passage.swift in Sources */,
+				802C039A1B66CA720090AAEF /* Tariff.swift in Sources */,
+				80FA45711B6DFC1800F2F455 /* PassageManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		803188F81B6541F400CE22A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803189031B6541F400CE22A5 /* Taximeter360Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		803188FE1B6541F400CE22A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 803188E41B6541F300CE22A5 /* Taximeter360 */;
+			targetProxy = 803188FD1B6541F400CE22A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		803188F01B6541F400CE22A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				803188F11B6541F400CE22A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		803188F51B6541F400CE22A5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				803188F61B6541F400CE22A5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		803189041B6541F400CE22A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		803189051B6541F400CE22A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		803189071B6541F400CE22A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Taximeter360/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		803189081B6541F400CE22A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Taximeter360/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8031890A1B6541F400CE22A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Taximeter360Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taximeter360.app/Taximeter360";
+			};
+			name = Debug;
+		};
+		8031890B1B6541F400CE22A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Taximeter360Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taximeter360.app/Taximeter360";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		803188E01B6541F300CE22A5 /* Build configuration list for PBXProject "Taximeter360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				803189041B6541F400CE22A5 /* Debug */,
+				803189051B6541F400CE22A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		803189061B6541F400CE22A5 /* Build configuration list for PBXNativeTarget "Taximeter360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				803189071B6541F400CE22A5 /* Debug */,
+				803189081B6541F400CE22A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		803189091B6541F400CE22A5 /* Build configuration list for PBXNativeTarget "Taximeter360Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8031890A1B6541F400CE22A5 /* Debug */,
+				8031890B1B6541F400CE22A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 803188DD1B6541F300CE22A5 /* Project object */;
+}
